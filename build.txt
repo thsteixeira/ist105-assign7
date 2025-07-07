@@ -1,0 +1,8 @@
+sudo dnf update -y
+sudo dnf install python3 -y
+sudo python3 -m ensurepip --upgrade
+sudo python3 -m pip install --upgrade pip
+sudo python3 -m pip install requests
+
+sudo dnf install git
+git clone https://github.com/thsteixeira/ist105-assign7.git
